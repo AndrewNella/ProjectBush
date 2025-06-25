@@ -149,3 +149,24 @@ MonoBehaviour:
     - name: _PROJECT/Scripts/TestScript
       pathPrefix: Scripts
       guid: 822aacc29926a454994430ac9498a2a6
+  - Id: Characters/f09a0be2-0042-43dd-9ec0-0a05f5d4d15c
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Cream
+      guid: 3c2686caac3560747a9265bfad42cbb2
+    - name: Yap
+      pathPrefix: Characters/Cream
+      guid: 475cd77fc8a2a6c40b2ce1f7abe1a660
+    - name: Happy
+      pathPrefix: Characters/Cream
+      guid: 91275858b041f9c41be873537d6b6bf5
+  - Id: Backgrounds/1bf82413-5f2a-43a2-becd-19aba0d52cab
+    Resources:
+    - name: Testbackground
+      pathPrefix: Backgrounds/MainBackground
+      guid: 79eba545eb1a4d54dac937eb6b2fb914
+  - Id: Audio
+    Resources:
+    - name: Lofi1
+      pathPrefix: Audio
+      guid: 72c3e1018ac32de4d8feb8e6a5c7229a

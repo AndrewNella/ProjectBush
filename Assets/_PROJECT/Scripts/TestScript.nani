@@ -1,3 +1,9 @@
+@back Testbackground
+@bgm Lofi1
+@char Cream.Neutral
+@wait 1
+@char Cream.Yap
+@print "Hey there! This is a early prototype for a Visual Novel Game!" author:Cream speed:0.1 wait!
+@char Cream.Happy
 
 @stop
-Test
