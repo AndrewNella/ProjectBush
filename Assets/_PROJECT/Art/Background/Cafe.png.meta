@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 475cd77fc8a2a6c40b2ce1f7abe1a660
+guid: acb94fdf06ededb459e1ae8bf444786f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5590477905150941076
-    second: CreamYap_0
-  - first:
-      213: -7130699372294968543
-    second: CreamYap_1
+      213: 244484688046937412
+    second: Cafe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CreamYap_0
+      name: Cafe_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 0
         y: 0
-        width: 1130
-        height: 1054
+        width: 1152
+        height: 896
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,30 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 497113df80e559d40800000000000000
-      internalID: 5590477905150941076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CreamYap_1
-      rect:
-        serializedVersion: 2
-        x: 1114
-        y: 390
-        width: 10
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12be14273baaa0d90800000000000000
-      internalID: -7130699372294968543
+      spriteID: 4455f084785946300800000000000000
+      internalID: 244484688046937412
       vertices: []
       indices: 
       edges: []
@@ -198,9 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CreamYap_0: 5590477905150941076
-      CreamYap_1: -7130699372294968543
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

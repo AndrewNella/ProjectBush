@@ -149,6 +149,9 @@ MonoBehaviour:
     - name: _PROJECT/Scripts/TestScript
       pathPrefix: Scripts
       guid: 822aacc29926a454994430ac9498a2a6
+    - name: _PROJECT/Scripts/Prologue
+      pathPrefix: Scripts
+      guid: 782df3e693630c94da0e03e0ea3a3e92
   - Id: Characters/f09a0be2-0042-43dd-9ec0-0a05f5d4d15c
     Resources:
     - name: Neutral
@@ -170,3 +173,12 @@ MonoBehaviour:
     - name: Lofi1
       pathPrefix: Audio
       guid: 72c3e1018ac32de4d8feb8e6a5c7229a
+  - Id: Backgrounds/2611fda0-969d-4885-bee0-9b855e866e7c
+    Resources:
+    - name: cafe
+      pathPrefix: Backgrounds/CafeTestbackground
+      guid: acb94fdf06ededb459e1ae8bf444786f
+  - Id: Characters/75996831-12d5-45f7-b36a-dc69fc0801c3
+    Resources: []
+  - Id: Characters/bc58a812-f540-4455-aabf-1d7c2d56d49b
+    Resources: []
