@@ -146,12 +146,12 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: _PROJECT/Scripts/Prologue
-      pathPrefix: Scripts
-      guid: 782df3e693630c94da0e03e0ea3a3e92
     - name: _PROJECT/Scripts/CafePrologueDialogue
       pathPrefix: Scripts
       guid: e43ddfb4e261bea4998a0696288b7399
+    - name: _PROJECT/Scripts/Prologue
+      pathPrefix: Scripts
+      guid: 782df3e693630c94da0e03e0ea3a3e92
   - Id: Characters/f09a0be2-0042-43dd-9ec0-0a05f5d4d15c
     Resources:
     - name: Neutral

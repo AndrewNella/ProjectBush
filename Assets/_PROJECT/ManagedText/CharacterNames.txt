@@ -1,0 +1,4 @@
+CafeOwner: {CafeOwnerName}
+Cream: {CreamName}
+Mom: Mom
+Player: {PlayerName}

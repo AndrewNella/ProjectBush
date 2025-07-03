@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
   NodesState:
-  - scriptGuid: 782df3e693630c94da0e03e0ea3a3e92
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 204
-      height: 533
   - scriptGuid: e43ddfb4e261bea4998a0696288b7399
     position:
       serializedVersion: 2
-      x: 0
-      y: 533
+      x: 564
+      y: 381
       width: 280
       height: 149
+  - scriptGuid: 782df3e693630c94da0e03e0ea3a3e92
+    position:
+      serializedVersion: 2
+      x: 20
+      y: 0
+      width: 430
+      height: 533

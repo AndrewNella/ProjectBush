@@ -21,7 +21,7 @@
 @print "You slowly slide out from under the blanket as you open your old cloths cabinet. Your old high school blazer jacket still hanging on a rack, it's held up well after all these years, but it's still probebly too small for you to wear." speed:0.1 wait!
 @print "It's a nice reminder of a simpler time." speed:0.1 wait!
 @print "You gather some cloths, and head to the bathroom. After showering, brushing your teeth and getting dressed, you make your way to the kitchen." speed:0.1 wait!
-@print "The best part about house sitting for your parents is that they pre-stocked food for you." speed:0.1 wait! 
+@print "The best part about house sitting for your parents is that they pre-stocked food for you." speed:0.1 wait!
 @despawn SunShafts
 
 Player: Alright {PlayerName}, what should we make for breakfast?
@@ -90,17 +90,18 @@ Mom: Love you too.
 # CheckMap
 @back CityMap transition:CrossFade time:0.5
 @hidePrinter
-@choice handler:ButtonArea button:SportFieldBTN pos:510,-120 goto:.Cafe
+@choice button:SportFieldBTN pos:510,-120 handler:ButtonArea goto:.Cafe
 @stop
 
 
 # Cafe
 @back CafeRoom
 @print "You arrive at the cafe. It seems to be a small, cozy place. Theearly morning sun gives the cafe a warm orange glow, and the smell of fresh coffee fills the air." speed:0.1 wait!
-@print "As you walk in, you're greeted by a cute looking Otter girl. She is dressed sharply, and has a cool confidence about her." speed:0.1 wait! 
-@char CafeOwner 
+@print "As you walk in, you're greeted by a cute looking Otter girl. She is dressed sharply, and has a cool confidence about her." speed:0.1 wait!
+@char CafeOwner
+@set CafeOwnerName="Cafe Worker"
 CafeOwner: Good morning. Welcome to Tousty Beans! How can I help you today sir?
-@choice "Try to learn her name by looking at her name tag."  goto: \Assets\_PROJECT\Scripts\CafePrologueDialogue.LookAtNameTag
-@choice "You saw what you wanted to see, and you want to leave."  goto: \Assets\_PROJECT\Scripts\CafePrologueDialogue.LeaveCafe
-@choice "You want to order a set for yourself."  goto: \Assets\_PROJECT\Scripts\CafePrologueDialogue.YouTakeASetAlone
+@choice "Try to learn her name by looking at her name tag." goto:_PROJECT/Scripts/CafePrologueDialogue.LookAtNameTag
+@choice "You saw what you wanted to see, and you want to leave." goto:_PROJECT/Scripts/CafePrologueDialogue.LeaveCafe
+@choice "You want to order a set for yourself." goto:_PROJECT/Scripts/CafePrologueDialogue.YouTakeASetAlone
 @stop

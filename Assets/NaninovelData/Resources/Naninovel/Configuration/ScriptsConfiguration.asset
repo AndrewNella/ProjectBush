@@ -19,7 +19,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ScenarioRoot: Assets/Scenario
+  ScenarioRoot: Assets
   ScriptParser: Naninovel.ScriptAssetParser, Elringus.Naninovel.Runtime, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   CompilerLocalization: {fileID: 11400000, guid: ecfd5703894a0fa4d828e75ccc400869, type: 2}
