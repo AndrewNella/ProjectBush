@@ -146,12 +146,12 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: _PROJECT/Scripts/TestScript
-      pathPrefix: Scripts
-      guid: 822aacc29926a454994430ac9498a2a6
     - name: _PROJECT/Scripts/Prologue
       pathPrefix: Scripts
       guid: 782df3e693630c94da0e03e0ea3a3e92
+    - name: _PROJECT/Scripts/CafePrologueDialogue
+      pathPrefix: Scripts
+      guid: e43ddfb4e261bea4998a0696288b7399
   - Id: Characters/f09a0be2-0042-43dd-9ec0-0a05f5d4d15c
     Resources:
     - name: Neutral
@@ -165,9 +165,15 @@ MonoBehaviour:
       guid: 91275858b041f9c41be873537d6b6bf5
   - Id: Backgrounds/1bf82413-5f2a-43a2-becd-19aba0d52cab
     Resources:
-    - name: Testbackground
+    - name: BasicRoom
       pathPrefix: Backgrounds/MainBackground
       guid: 79eba545eb1a4d54dac937eb6b2fb914
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: fac6ec787963c364f96dee1032cfd381
+    - name: Cafe
+      pathPrefix: Backgrounds/MainBackground
+      guid: acb94fdf06ededb459e1ae8bf444786f
   - Id: Audio
     Resources:
     - name: Lofi1
@@ -182,3 +188,21 @@ MonoBehaviour:
     Resources: []
   - Id: Characters/bc58a812-f540-4455-aabf-1d7c2d56d49b
     Resources: []
+  - Id: Unlockables
+    Resources: []
+  - Id: Backgrounds/b79e97b0-2b79-4cd6-aa73-30dda459737e
+    Resources:
+    - name: PlayerRoom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 79eba545eb1a4d54dac937eb6b2fb914
+    - name: CafeRoom
+      pathPrefix: Backgrounds/MainBackground
+      guid: acb94fdf06ededb459e1ae8bf444786f
+    - name: CityMap
+      pathPrefix: Backgrounds/MainBackground
+      guid: fac6ec787963c364f96dee1032cfd381
+  - Id: Characters/132da873-bd37-4c1c-a442-801dee4af5d5
+    Resources:
+    - name: Default
+      pathPrefix: Characters/CafeOwner
+      guid: 52e08e4ae2d948c4081b17598b4295b9

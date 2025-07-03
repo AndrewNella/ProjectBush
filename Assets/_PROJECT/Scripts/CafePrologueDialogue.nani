@@ -1,0 +1,50 @@
+# LookAtNameTag
+Player: Good Morning Miss...
+@print "You look at her nametag." speed:0.1 wait! 
+Player: ...Alex. 
+Player: Wait! Alex, as in Alex Otterton from Creek High? It's me! {PlayerName}.
+@set CafeOwnerName="Alex"
+CafeOwner: Hehe, I thought it was you {PlayerName}, though I didn't want to assume and make a fool of myself.
+CafeOwner: It's been a while since we last saw each other, hasn't it?
+Player: Yeah, it has. I didn't know you were working here.
+CafeOwner: I don't just work here, I opened this place! I did a few odds jobs for a few years after high school and saved up enough to open this cafe.
+CafeOwner: I am really happy with how it turned out, and the customers seem to like. Though let's go have a seat and I will tell you all about it.
+@print "She gestures towards a table in the corner of the cafe, and you follow her. The scene shifts to the two of you sitting and chatting for a very long time as the scene fades to black." speed:0.1 wait!
+
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" speed:0.1 wait!
+@stop
+
+# YouTakeASetAlone
+Player: Thank you very much. I'll just have a set by myself for now while I browse the menu.
+CafeOwner: Of course, please take a seat and someone will be with you shortly.
+@remove CafeOwner
+
+@print "You take a seat at one of the tables, and look around the cafe. It is a small, cozy place with a few tables and chairs, and a counter where the coffee is made." speed:0.1 wait!
+@print "However, you are soon interrupted by a stranger" speed:0.1 wait!
+@char Cream
+@set Cream="???""
+Cream: Hello there! I couldn't help but notice you sitting here all alone. Would you mind if I joined you?
+Player: Oh, um, sure. I don't mind.
+@print "The stranger sits down across from you. He seems to be a strange creature with shiny, smooth white and black skin." speed:0.1 wait!
+@char Cream.Yap
+Cream: My name is Cream, by the way. It's a pleasure to meet you.
+@char Cream.Neutral
+@set Cream="Cream"
+Player: Nice to meet you too, Cream. My name is {PlayerName}.
+@char Cream.Yap
+Cream: Nice! I'm new to twon, so I am trying to meet people and get a sense of how the town is like. I'm here because my art is being displayed in the Art Festival at the end of the week. I'm super excited!
+@char Cream.Neutral
+Player: Huh. I wouldn't have expected that. This is my childhood town, and I haven't been here in a while. I am just visiting for the week while my parents are on holiday.
+@print "You and Cream continue to chat for a while, getting to know each other. You both chat for a long time as the scene fades to black." speed:0.1 wait!
+
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" speed:0.1 wait!
+
+
+@stop
+
+# LeaveCafe
+Player: Thank you very much, though I do think I should take my leave. Thank you very much for your time!
+@remove CafeOwner
+@print "You shake her hand, before walking out of the cafe. The scene fades to black as you head out to town to explore further." speed:0.1 wait!
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" speed:0.1 wait!
+@stop
