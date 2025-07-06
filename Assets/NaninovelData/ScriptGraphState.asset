@@ -16,14 +16,28 @@ MonoBehaviour:
   - scriptGuid: e43ddfb4e261bea4998a0696288b7399
     position:
       serializedVersion: 2
-      x: 564
-      y: 381
-      width: 280
-      height: 149
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
   - scriptGuid: 782df3e693630c94da0e03e0ea3a3e92
     position:
       serializedVersion: 2
-      x: 20
+      x: 0
       y: 0
-      width: 430
-      height: 533
+      width: NaN
+      height: NaN
+  - scriptGuid: a06d0cc6aa5e51b4e859c37e1fb4bb60
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - scriptGuid: ff2e41a00d8a2134ca68f4bc4676ba55
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2090994136984198299}
   - component: {fileID: 5414908882147190494}
   m_Layer: 5
-  m_Name: SportFieldBTN
+  m_Name: CafeBTN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 900}
+  m_SizeDelta: {x: 300, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222625938204193992
 CanvasRenderer:
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 886944035, guid: 7927d29050026994c85259c5a2ea9cb1, type: 3}
+  m_Sprite: {fileID: -743636680, guid: ee1c160db07426e4290192a5cb79b031, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

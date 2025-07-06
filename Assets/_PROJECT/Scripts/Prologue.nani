@@ -1,9 +1,9 @@
-@print "This is a early prototype for a Visual Novel Game!" speed:0.1 wait!
-@print "Please note that all content you see are early concepts, and that any A.I. that is used at this stage will be removed before the official publication of the game." speed:0.1 wait!
-@print "Please enjoy." speed:0.1 wait!
+@print "This is a early prototype for a Visual Novel Game!" wait!
+@print "Please note that all content you see are early concepts, and that any A.I. that is used at this stage will be removed before the official publication of the game." wait!
+@print "Please enjoy." wait!
 @wait 0.5
 
-@print "What is the name of our protagonist?" speed:0.1 wait!
+@print "What is the name of our protagonist?" wait!
 @input PlayerName summary:"Please enter your name."
 @stop
 
@@ -16,17 +16,17 @@
 
 
 
-@print "You stir and toss in your bed as the warm morning sunlight greets you." speed:0.1 wait!
-@print "Slowly you rise from your hazy sleep as your senses activate. You stretch as you sit up, for once feeling fully rested. A rare occurance indeed." speed:0.1 wait!
-@print "You slowly slide out from under the blanket as you open your old cloths cabinet. Your old high school blazer jacket still hanging on a rack, it's held up well after all these years, but it's still probebly too small for you to wear." speed:0.1 wait!
-@print "It's a nice reminder of a simpler time." speed:0.1 wait!
-@print "You gather some cloths, and head to the bathroom. After showering, brushing your teeth and getting dressed, you make your way to the kitchen." speed:0.1 wait!
-@print "The best part about house sitting for your parents is that they pre-stocked food for you." speed:0.1 wait!
+@print "You stir and toss in your bed as the warm morning sunlight greets you." wait!
+@print "Slowly you rise from your hazy sleep as your senses activate. You stretch as you sit up, for once feeling fully rested. A rare occurance indeed." wait!
+@print "You slowly slide out from under the blanket as you open your old cloths cabinet. Your old high school blazer jacket still hanging on a rack, it's held up well after all these years, but it's still probebly too small for you to wear." wait!
+@print "It's a nice reminder of a simpler time." wait!
+@print "You gather some cloths, and head to the bathroom. After showering, brushing your teeth and getting dressed, you make your way to the kitchen." wait!
+@print "The best part about house sitting for your parents is that they pre-stocked food for you." wait!
 @despawn SunShafts
 
 Player: Alright {PlayerName}, what should we make for breakfast?
 
-@print "You open the cubbords and Fridge and have settled on a few options." speed:0.1 wait!
+@print "You open the cubbords and Fridge and have settled on a few options." wait!
 
 @choice "A small Yogurt should do." goto:.Yogurt
 @choice "You know how to cook. Make a Big Bacon and Egg breakfast!" goto:.BaconEggs
@@ -34,31 +34,31 @@ Player: Alright {PlayerName}, what should we make for breakfast?
 @stop
 
 # Yogurt
-@print "You open the fridge and snack a small cup of Yogurt. It is small, but it should be enough to get your through the day. You've eaten so much strawberry yogurt during your college years that you are now revolted at the taste. Luckily, there is Bannana flavor." speed:0.1 wait!
-@print "The cup is quickly finished, and you don't feel so hungry anymore." speed:0.1 wait!
+@print "You open the fridge and snack a small cup of Yogurt. It is small, but it should be enough to get your through the day. You've eaten so much strawberry yogurt during your college years that you are now revolted at the taste. Luckily, there is Bannana flavor." wait!
+@print "The cup is quickly finished, and you don't feel so hungry anymore." wait!
 @set Energy+=30
 @goto .ContinueAfterBreakfast
 @stop
 
 # BaconEggs
-@print "You open the fridge and haul out 3 eggs and a good few slabs of bacon. You turn on the stove and soon cook both a plate of sizzling bacon and in another, a plate of 3 sunny-side-up eggs." speed:0.1 wait!
-@print "After the eggs are heated, you place a lid over it to make sure the top of the egg cooks evenly with the bottom. All the while you flip and stir the bacon to make sure it doesn't burn to the plate." speed:0.1 wait!
-@print "You almost go into a meditative state as you handle the stove. Soon after, you plop the crispy bacon and shinding golden eggs onto a plate and dig in!" speed:0.1 wait!
-@print "After feasting on your home cooked meal, a sense of real pride and acomplishment washes over you. You feel satisfied." speed:0.1 wait!
+@print "You open the fridge and haul out 3 eggs and a good few slabs of bacon. You turn on the stove and soon cook both a plate of sizzling bacon and in another, a plate of 3 sunny-side-up eggs." wait!
+@print "After the eggs are heated, you place a lid over it to make sure the top of the egg cooks evenly with the bottom. All the while you flip and stir the bacon to make sure it doesn't burn to the plate." wait!
+@print "You almost go into a meditative state as you handle the stove. Soon after, you plop the crispy bacon and shinding golden eggs onto a plate and dig in!" wait!
+@print "After feasting on your home cooked meal, a sense of real pride and acomplishment washes over you. You feel satisfied." wait!
 @set Energy=100
 @goto .ContinueAfterBreakfast
 @stop
 
 # Chips
-@print "You open the cubbord and snag a back of chips. You pull the bag open as you lay into them, polishing the entire bag in record time. You can work off the callories easily you think." speed:0.1 wait!
-@print "You're not as hungry anymore." speed:0.1 wait!
+@print "You open the cubbord and snag a back of chips. You pull the bag open as you lay into them, polishing the entire bag in record time. You can work off the callories easily you think." wait!
+@print "You're not as hungry anymore." wait!
 @set Energy+=10
 @goto .ContinueAfterBreakfast
 @stop
 
 
 # ContinueAfterBreakfast
-@print "Now that you've had breakfast, you go around the house, opening the windows and letting light into the building. You make sure that everything is fine, but not before your phone suddenly starts ringing." speed:0.1 wait!
+@print "Now that you've had breakfast, you go around the house, opening the windows and letting light into the building. You make sure that everything is fine, but not before your phone suddenly starts ringing." wait!
 @print "It's your mom." wait!
 Mom: Good morning! Did you sleep well? 
 Player: Yes mom, I slept well. It was kinda nice sleeping in my old bed again.
@@ -73,8 +73,10 @@ Mom: I never said anything about that, hehehe. Though their coffee is still love
 Player: Alright. I will see you you when you get back. Love you.
 Mom: Love you too. 
 
-@print "You hang up the phone as you sigh. Alright, they will be gone for seven days. In the meanwhile, I have the house and town to myself." speed:0.1 wait!
-@print "Maybe I should go see what is up with that cafe. Couldn't hurt." speed:0.1 wait!
+@print "You hang up the phone as you sigh. Alright, they will be gone for seven days. In the meanwhile, I have the house and town to myself." wait!
+@print "Maybe I should go see what is up with that cafe. Couldn't hurt." wait!
+@showUI PlayerHUD
+@gosub _PROJECT/Scripts/PlayerHUDManager.SetDayOfTheWeekToMonday
 @goto .HouseActions
 @stop
 
@@ -90,18 +92,23 @@ Mom: Love you too.
 # CheckMap
 @back CityMap transition:CrossFade time:0.5
 @hidePrinter
-@choice button:SportFieldBTN pos:510,-120 handler:ButtonArea goto:.Cafe
+@choice button:SportFieldBTN pos:510,-120 handler:ButtonArea goto:_PROJECT/Scripts/SportfieldPrologueDialogue.StartSportfieldPrologue
+@choice button:CafeBTN pos:-810,-360 handler:ButtonArea goto:.Cafe 
+
 @stop
 
 
 # Cafe
 @back CafeRoom
-@print "You arrive at the cafe. It seems to be a small, cozy place. Theearly morning sun gives the cafe a warm orange glow, and the smell of fresh coffee fills the air." speed:0.1 wait!
-@print "As you walk in, you're greeted by a cute looking Otter girl. She is dressed sharply, and has a cool confidence about her." speed:0.1 wait!
+@print "You arrive at the cafe. It seems to be a small, cozy place. Theearly morning sun gives the cafe a warm orange glow, and the smell of fresh coffee fills the air." wait!
+@print "As you walk in, you're greeted by a cute looking Otter girl. She is dressed sharply, and has a cool confidence about her." wait!
 @char CafeOwner
 @set CafeOwnerName="Cafe Worker"
 CafeOwner: Good morning. Welcome to Tousty Beans! How can I help you today sir?
 @choice "Try to learn her name by looking at her name tag." goto:_PROJECT/Scripts/CafePrologueDialogue.LookAtNameTag
 @choice "You saw what you wanted to see, and you want to leave." goto:_PROJECT/Scripts/CafePrologueDialogue.LeaveCafe
 @choice "You want to order a set for yourself." goto:_PROJECT/Scripts/CafePrologueDialogue.YouTakeASetAlone
+@stop
+
+
 @stop

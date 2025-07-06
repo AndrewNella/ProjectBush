@@ -144,6 +144,9 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: PlayerHUD
+      pathPrefix: UI
+      guid: 6795067a5acaebc4d824da57ade9e187
   - Id: Scripts
     Resources:
     - name: _PROJECT/Scripts/CafePrologueDialogue
@@ -152,6 +155,12 @@ MonoBehaviour:
     - name: _PROJECT/Scripts/Prologue
       pathPrefix: Scripts
       guid: 782df3e693630c94da0e03e0ea3a3e92
+    - name: _PROJECT/Scripts/PlayerHUDManager
+      pathPrefix: Scripts
+      guid: a06d0cc6aa5e51b4e859c37e1fb4bb60
+    - name: _PROJECT/Scripts/SportfieldPrologueDialogue
+      pathPrefix: Scripts
+      guid: ff2e41a00d8a2134ca68f4bc4676ba55
   - Id: Characters/f09a0be2-0042-43dd-9ec0-0a05f5d4d15c
     Resources:
     - name: Neutral
@@ -201,8 +210,21 @@ MonoBehaviour:
     - name: CityMap
       pathPrefix: Backgrounds/MainBackground
       guid: fac6ec787963c364f96dee1032cfd381
+    - name: SportField
+      pathPrefix: Backgrounds/MainBackground
+      guid: 575991ad47a78da488b1242fd3c66a01
   - Id: Characters/132da873-bd37-4c1c-a442-801dee4af5d5
     Resources:
     - name: Default
       pathPrefix: Characters/CafeOwner
       guid: 52e08e4ae2d948c4081b17598b4295b9
+  - Id: Characters/7cb47658-0201-4dbc-8a99-af272ea376cb
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Garreth
+      guid: 8b86ea209bc9cdf42a1a02ac22ea5e90
+  - Id: Characters/912fbe3e-17e2-42ce-8218-f30221adae37
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Luna
+      guid: 6648001e4b114c849ac9fb4890d1bea2

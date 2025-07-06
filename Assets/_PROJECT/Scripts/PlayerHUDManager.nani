@@ -1,0 +1,11 @@
+
+
+# SetDayOfTheWeekToMonday
+@set DayOfTheWeek=1
+@return
+
+# IncreaseDayCount
+@set DayOfTheWeek++
+@set DayOfTheWeek=1 if: DayOfTheWeek>7
+
+@return

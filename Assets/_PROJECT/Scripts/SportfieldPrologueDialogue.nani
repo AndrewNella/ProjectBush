@@ -1,0 +1,72 @@
+# StartSportfieldPrologue
+@back SportField
+@print "You arrive at your old high school's sport field. Open to the public as you see some people starting to set up and prepare for the Artist Festival." wait!
+@print "The field looks weird, cut in a way that almost looks like A.I. made it. Weird." wait!
+@print "From the few tents and stalls that are being set up, you also see they are building a temporary stage in the corner of the field. That must be where the performances will take place." wait!
+@print "Behind you, and where the classrooms are, you can see that various artists and others are busy setting up within the classrooms. It seems that they have been given entire classrooms to exhibit their work." wait!
+@print "There are a couple of things you can decide to do. You can take a look around the stage and see what is going on there, or you can go check out the classrooms and see what is being exhibited there, though neither seems to be fully set up yet." wait!
+@print "Or you can just take your leave." wait!
+
+@choice "Let's see what is going on around the stage area." goto:.GoToTheStageArea
+@choice "Head to the classrooms to see what is going on." goto:.GoToTheClassrooms
+@choice "You saw what you wanted to see, and you want to leave." goto:.LeaveSportsfield
+@stop
+
+
+# GoToTheStageArea
+@print "You walk over to the stage area, where you see a few people setting up the stage and the sound equipment. It seems like they are still in the early stages of setting everything up." wait!
+@set GarrethName="???"
+Garreth: YO! Is that {PlayerName}?! 
+@print "Before you can do anything else, a old voice rings out from behind you. A voice that was buried deep within your subconscious, a voice that some part deep in you, hoped that you would never hear again." wait!
+
+@char Garreth scale:1.2
+@set GarrethName="Garreth"
+@print "You turn around to see a slim and fit Orange Red Cheetah jogging up towards you. He is wearing a light cyan office shirt, and a pair of dennim shorts. The top buttons of the shirt are undone and his sunglasses keep you from being able to see his light green eyes." wait!
+Garreth: It's been a while since I last saw you! How has my favoriate nerd been? Last I heard of you, you were moving to the big city to go to university and I never heard from you again. wait!
+Player: Oh, um, hi Garreth. It's been a while... 
+@print "The nerd comment makes the memories all come back. Garreth, the star athelete of Creek High. He was always good at everything, inlcuding both sport and academics, and for some reason, he never seemed to leave you alone." wait!
+@print "He would call out to you as nerd whenever he saw you, and all the other kids that always surrounded him would chime in to call you other names and when Garreth was not around, they would tend to make your life a bit of hell" wait!
+@print "Regardless, you never really hated Garreth. Though he was the source of a lot of your frustrations back in the day." wait!
+Player: So, what are you doing here? Are you also revisiting your old hunting grounds?
+Garreth: Heh, you could say that, though I'm in charge of making sure that everything here is set up correctly. I actually have a job now in construction and I'm at the top of the food chain baby.
+Garreth: Though, I see you've at least grown a little in the few years you're gone. But you still look like a nerd. You've got no muscles on those arms, and can I see a hint of a belly forming? Pffft!
+Player: That's nice Garreth, but I am not here to talk about my body. I am just here to see what has changed in town. 
+Player: I think I'm gonna take my leave. You can get back to your work I guess. Nice to see you I suppose.
+Garreth: Heh, sure thing. I will see you around then, flabby nerd.
+
+@print "Defeated, you walk away towards the field's entrance. You don't really have any energy left to do anything after that assault on your self-esteem. You just want to go home and rest." wait!
+@print "The scene fades to black as you leave and head home" wait!
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" wait!
+
+@stop
+
+# GoToTheClassrooms
+@print "You walk over to the classrooms, where you see a few people setting up their exhibits. It seems like they are still in the early stages of their plans." wait!
+@print "As you walk around, you see a few familiar faces. Some of the artists are people you went to school with, and some are new faces, but none seem to recognize you." wait!
+@set LunaName="???"
+@char Luna scale:1.4 
+Luna: So, what are you doing skulking around the exhibits?
+@print "You are stopped in your tracks by a unfamiliar figure. They are a azure blue wolf with a white T-Shirt on, and a school bag over their shoulder." wait!
+@print " They stare at you with deep yellow eyes, as they take a sip from the cup that they are holding." wait!
+Player: Oh, I'm just looking around. I used to go to this school, and I wanted to see what has changed.
+Luna: Huh, could have fooled me. You look like a total stranger. I guess you were one of those nerds that never left the library.
+@print "The Nerd comment stings a bit, as it pulls back a old feeling you buried." wait!
+Player: No, I am not a nerd, and I did not spend all my time in the library, thank you very much. In fact, whop are you? Walking around art exhibits with a backpack doesn't give a good impression.
+Luna: Pffft, I'm a final year here at the school. The name is Luna and I am here because I got nothing better to do.
+@set LunaName="Luna"
+@print "As they finish their sentence, a bunch of other students exit a class behind the wolf. As they pass, you quickly notice a flier next to the door and read..." wait!
+Player: Summer School? You were attending extra classes?
+Luna: That is none of your bussiness ok? I don't need some boomer giving me another lecture about how I should be studying more. I am doing fine. wait!
+Player: I'm not a boomer! I'm 21! Though, I also had to attend a few summer school classes, and even then, I got into university so chill.
+Luna: Huh, really? I guess you are not as much of a loser as I thought. But that doesn't mean you can just walk around here like you own the place.
+Player: Say what, I'll come back tomorrow with some of my study materials, and I can give you a bit of tutoring. In exchange, I want you to show me around town so that I don't act like I own the place, deal?
+Luna: Huh, I guess that could work. I could use some help, especially if it is for free.
+@print "You shake hands with Luna, and you both agree to meet up tomorrow at the same time. The scene fades to black." wait!
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" wait!
+
+@stop
+
+# LeaveSportsfield
+@print "The scene fades to black as you leave and head out to town to explore further." wait!
+@print "Thank you for playing this demo of Project Bush! This is just a small taste of what is to come, and we hope you enjoyed it!" wait!
+@stop
